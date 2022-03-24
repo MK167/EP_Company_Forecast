@@ -14,6 +14,8 @@ import { NavbarComponent } from './Core/navbar/navbar.component';
 import { TopNavBarComponent } from './Core/top-nav-bar/top-nav-bar.component';
 import { FooterComponent } from './Core/footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { WeatherWidgetMainComponent } from './Components/Forecast/weather-widget-main/weather-widget-main.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,12 +29,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     WeatherComponent,
     NavbarComponent,
     TopNavBarComponent,
-    FooterComponent
+    FooterComponent,
+    WeatherWidgetMainComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
