@@ -1,0 +1,43 @@
+.date{
+  background-color: #000000;
+  color: white;
+}
+.date .dateDetails{
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181717;
+  border-radius: 10px;
+  padding: 20px 0;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.dateContent{
+  margin: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  text-align: center;
+}
+
+.dateContent .dateIcon{
+  color: rgb(223, 223, 2);
+}
+.dateIconMenu,.dateIcon{
+  margin: 6px 0;
+}
+.detailmon{
+  /* width: 40%; */
+  // text-align: center;
+}
+.detailmon{
+  // margin: 20px 0;
+  // margin-left: -230px;
+}
+.detailmon small{
+  font-size: 13px;
+}

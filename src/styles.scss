@@ -1,1 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
+
+:root {
+  --dark-color: #242424;
+  --sectionTwo: #454545;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --sectioncolor: #eff7fa;
+  --mainColor: #FF3B3C;
+}
+
+body{
+  font-family: "Montserrat";
+  font-size: 14px;
+
+}
+/*fonts
+====================*/
+@font-face {
+  font-family: "Montserrat";
+  src: url("assets/vendor/fonts/Montserrat-VariableFont_wght.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "OpenSans";
+  src: url("assets/vendor/fonts/OpenSans-VariableFont_wdth,wght.ttf");
+  font-weight: bold;
+}
+.main-btn {
+  background-color: var(--mainColor);
+  color: var(--sectioncolor);
+  padding: 0.5rem 1rem;
+}
+.login{
+  text-decoration: none;
+  color: var(--mainColor);
+}
+.login:hover{
+  text-decoration: none;
+  color: var(--sectioncolor);
+}
+.main-btn:hover {
+  color: white;
+
+}

@@ -1,0 +1,17 @@
+
+.sponser{
+  background-color: var(--dark-color);
+  color: white;
+}
+.sponser .sponserContent{
+
+text-align: center;
+}
+.sponser .sponserContent img{
+  width: 70px;
+}
+.sponser .sponserContent p{
+  color: var(--sectionTwo);
+  margin: 10px 0;
+  font-weight: bold;
+}

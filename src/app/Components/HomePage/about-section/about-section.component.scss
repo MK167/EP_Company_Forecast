@@ -1,0 +1,93 @@
+.features{
+  background-color: var(--sectionTwo);
+}
+.main-title::after{
+  content: '';
+  width: 120px;
+  height: 2px;
+  background-color: var(--green-color);
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .container .main-title .globalFont{
+  color: var(--yellow-color);
+  font-size: 50px;
+}
+.features .icon-holder {
+  height: 200px;
+}
+.features .icon-holder svg{
+  left: 50%;
+  transform: translateX(-50%);
+}
+.features .icon-holder .number {
+  font-size: 12rem;
+  color: var(--sectioncolor);
+}
+.features .icon-holder .icon {
+  color: var(--green-color);
+}
+.features .feat h4 {
+  color: var(--yellow-color);
+}
+.mt-5 {
+  margin-top: 4rem!important;
+}
+.card {
+  background-color: #000;
+  border-color: #000;
+  border-radius: 5px;
+  outline:#000;
+  height: 240px;
+}
+.numberCard{
+  background-color: #000;
+             border: 1px solid #2F2F2F;
+             border-radius: 4px;
+            width: 40px; height: 40px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            line-height: 2.1;
+}
+.workContentImg{
+  background-image: url(../../../../assets/img/Testassets/Image.png);
+  background-repeat: no-repeat;
+  background-position: 100px 156%;
+  background-size: contain;
+}
+.worksContent p{
+  font-size: 11px;
+  color: #999999;
+}
+.workContentImg p{
+  padding-right:70px ;
+}
+
+
+.solid{
+  border-top: 7px solid #FF3B3C;
+  margin-top: 0;
+  margin-bottom: 0;
+  background: #FF3B3C 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+.main-btn {
+  background-color: var(--mainColor);
+  color: var(--sectioncolor);
+  padding: 0.5rem 1rem;
+}
+.login{
+  text-decoration: none;
+  color: var(--mainColor);
+}
+.login:hover{
+  text-decoration: none;
+  color: var(--sectioncolor);
+}
+.main-btn:hover {
+  color: white;
+
+}
